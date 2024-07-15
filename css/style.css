@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100vh - 13vh);
+}
+.btn {
+  font-size: 1.1rem;
+  padding: 1rem 1.7rem;
+  border: none;
+  cursor: pointer;
+}
+/* ---- Header Start ----- */
+header {
+  width: 80%;
+  margin: 0 auto;
+  height: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  color: #000;
+  font-size: 3rem;
+  font-family: "Allison", cursive;
+}
+nav ul {
+  display: flex;
+  gap: 1.2rem;
+}
+nav ul li a {
+  color: #000;
+  letter-spacing: 0.1rem;
+  position: relative;
+}
+nav ul li a::after {
+  content: "";
+  background: #000;
+  height: 0.15rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  transform: scaleX(0);
+  transition: transform 0.6s ease-in-out;
+  transform-origin: right;
+}
+nav ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/* ---- Header End ----- */
+
+/* ---- Hero Start ---- */
+.hero {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.hero-left img {
+  width: 30rem;
+  margin-top: -5rem;
+}
+.hero-right h1 {
+  font-size: 5rem;
+  position: relative;
+}
+.hero-right h1::before {
+  content: "New";
+  position: absolute;
+  top: -60px;
+  font-family: "Allison", cursive;
+}
+.hero-sub-heading {
+  font-size: 1.3rem;
+  line-height: 0.5rem;
+}
+.hero-price {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.hero-btn {
+  display: flex;
+}
+.hero-primary {
+  background: #003257;
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.hero-primary:hover {
+  transform: scale(1);
+}
+.hero-secondary {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.hero-secondary:hover {
+  transform: scale(1.1);
+}
+/* ---- Hero End ---- */
