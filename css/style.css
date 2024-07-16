@@ -29,15 +29,19 @@ a {
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
+section {
+  min-height: 100vh;
+  width: 100%;
+}
 /* ---- Header Start ---- */
 header {
   width: 100%;
+  height: 13vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 nav {
   width: 80%;
   margin: 0 auto;
-  padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,6 +95,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  min-height: calc(100vh - 13vh);
 }
 .hero-img-container {
 }
@@ -138,3 +143,50 @@ nav {
 }
 
 /* ---- Hero End ---- */
+/* ---- Featured Start ---- */
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-container {
+  background: var(--light-peach);
+  width: 100%;
+  height: 60vh;
+  transform: skewY(-6deg);
+}
+.featured-inner-container {
+  transform: skewY(6deg);
+}
+
+.featured-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.featured-heading {
+  font-size: 4rem;
+  color: var(--dark-gray);
+}
+.featured-para {
+  font-size: 1rem;
+  color: var(--light-black);
+  line-height: 1.7rem;
+}
+.featured-price {
+  font-size: 1.5rem;
+  margin: 1.8rem 0;
+}
+.featured-btn {
+  background: transparent;
+  border: 0.1rem solid var(--light-black);
+}
+.featured-btn:hover {
+  transform: scale(1.1);
+}
+.featured-image {
+  width: 28rem;
+}
+/* ---- Featured End ---- */

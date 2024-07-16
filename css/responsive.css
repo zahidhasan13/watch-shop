@@ -50,10 +50,43 @@
   .hero-heading {
     font-size: 3rem;
   }
+
+  /* Featued Section */
+  .featured-image {
+    display: none;
+  }
+  .featured-container {
+    height: 70vh;
+    padding: 1rem 0;
+  }
+  .featured-inner-container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .featured-heading {
+    font-size: 2.9rem;
+  }
+  .featured-para {
+    font-size: 0.93rem;
+    max-width: 100%;
+  }
+  .featured-price {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  .featured-btn {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 768px) {
+  /* Featued Section */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
   .btn {
     font-size: 0.8rem;
     padding: 0.8rem 1.5rem;
@@ -74,10 +107,33 @@
   .hero-price {
     font-size: 1.2rem;
   }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 992px) {
+  /* Featued Section */
+  .featured-image {
+    width: 20rem;
+  }
+  .featured-container {
+    height: 70vh;
+    padding: 1rem 0;
+  }
+  .featured-inner-container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .featured-heading {
+    font-size: 2.9rem;
+  }
+  .featured-para {
+    font-size: 0.93rem;
+    max-width: 100%;
+  }
+  .featured-price {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  .featured-btn {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 1200px) {
@@ -90,16 +146,43 @@
     padding: 0 1rem;
   }
   .hero-img {
-    width: 25rem;
+    width: 20rem;
   }
   .hero-heading {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .hero-sub-heading {
     font-size: 1.4rem;
   }
   .hero-price {
     font-size: 1.2rem;
+  }
+  /* Featued Section */
+  .featured-image {
+    width: 20rem;
+  }
+  .featured-container {
+    height: 70vh;
+    padding: 1rem 0;
+  }
+  .featured-inner-container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .featured-heading {
+    font-size: 2.9rem;
+  }
+  .featured-para {
+    font-size: 0.93rem;
+    max-width: 100%;
+  }
+  .featured-price {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  .featured-btn {
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
   }
 }
 
