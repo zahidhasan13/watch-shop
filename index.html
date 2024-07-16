@@ -16,25 +16,27 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="logo">
-          <a href="#">Orologio.</a>
-        </div>
-        <ul class="navlinks" id="navlinks">
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Arrival</a></li>
-          <li><a href="#">Offer</a></li>
-          <li><a href="#">Colletion</a></li>
-        </ul>
-        <div class="hamburger" id="hamburger">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </nav>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#">Orologio.</a>
+          </div>
+          <ul class="navlinks" id="navlinks">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Arrival</a></li>
+            <li><a href="#">Offer</a></li>
+            <li><a href="#">Colletion</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- Header End -->
     <!-- Hero Start -->
-    <section class="hero">
+    <section class="hero container">
       <div class="hero-img-container">
         <img src="./images/omega blue.png" class="hero-img" />
       </div>
@@ -52,7 +54,7 @@
     <!-- Featured Start -->
     <section class="featured">
       <div class="featured-container">
-        <div class="featured-inner-container">
+        <div class="featured-inner-container container">
           <div class="featured-content">
             <h1 class="featured-heading">Quartz Casio</h1>
             <p class="featured-para">
@@ -70,6 +72,66 @@
       </div>
     </section>
     <!-- Featured End -->
+    <!-- Arival Start -->
+    <section class="arival">
+      <div class="container">
+        <h1 class="arival-heading">New Arrivals</h1>
+        <div class="card-container">
+          <div class="card">
+            <img src="./images/Tissot.png" class="card-image" />
+            <h1>Tissort</h1>
+            <p class="card-price">$ 3,524</p>
+            <button class="btn secondary-btn">Discover</button>
+          </div>
+          <div class="card">
+            <img src="./images/Klassc.png" class="card-image" />
+            <h1>Klassc</h1>
+            <p class="card-price">$ 4,524</p>
+            <button class="btn secondary-btn">Discover</button>
+          </div>
+          <div class="card">
+            <img src="./images/citizen.png" class="card-image" />
+            <h1>Citizen</h1>
+            <p class="card-price">$ 2,524</p>
+            <button class="btn secondary-btn">Discover</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Arival End -->
+    <!-- Offers Start -->
+    <section class="offer-section">
+      <div class="offers-container">
+        <div class="container">
+          <div class="content">
+            <h1 class="offer-text">50% off</h1>
+            <h1 class="offer-heading">Special Collection</h1>
+            <button class="btn primary-btn">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Offers End -->
+    <!-- Collection Start -->
+    <section class="collection">
+      <div class="container">
+        <h1 class="arival-heading">Collection</h1>
+        <div class="grid-card-container">
+          <div class="grid-card" collection="Rado"></div>
+          <div class="grid-card" collection="Tissort"></div>
+          <div class="grid-card" collection="Cartier"></div>
+          <div class="grid-card" collection="Geneve"></div>
+          <div class="grid-card" collection="Omega"></div>
+          <div class="grid-card" collection="Fitron"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Collection End -->
+    <!-- Footer Start -->
+    <footer>
+      <p class="footer-text">Developed By Md Zahid Hasan</p>
+    </footer>
+    <!-- Footer End -->
     <script src="./js/main.js"></script>
   </body>
 </html>
